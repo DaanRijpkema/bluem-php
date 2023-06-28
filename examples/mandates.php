@@ -8,7 +8,7 @@
  * Author: Bluem Plugin Support (pluginsupport@bluem.nl)
  */
 require_once __DIR__.'/initialization.php';
-
+global $bluem_object;
 /**
  * Creating a Mandate
  * */
