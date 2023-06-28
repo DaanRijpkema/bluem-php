@@ -93,7 +93,7 @@ if ($statusCode === "Success") {
 
     // Implement: do what you need to when the transaction has been cancelled
 
-} elseif ($statusCode === "Open" || $statusCode == "Pending") {
+} elseif ($statusCode === "Open" || $statusCode === "Pending") {
 
     // the transaction is still open. it might take some time to process
     // Implement: show a message that reflects this
