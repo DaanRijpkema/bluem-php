@@ -40,7 +40,7 @@ class MandatesContext extends BluemContext {
                 should be either 'CORE' or 'B2B'"
             );
         }
-        if ( $type == "CORE" ) {
+        if ( $type === "CORE" ) {
             $BICs = [
                 new BIC( "ABNANL2A", "ABN AMRO" ),
                 new BIC( "ASNBNL21", "ASN Bank" ),
