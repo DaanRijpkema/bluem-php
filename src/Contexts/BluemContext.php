@@ -8,9 +8,9 @@
 
 namespace Bluem\BluemPHP\Contexts;
 
-use Bluem\BluemPHP\Interfaces\ContextInterface;
+use Bluem\BluemPHP\Interfaces\BluemContextInterface;
 
-abstract class BluemContext implements ContextInterface
+abstract class BluemContext implements BluemContextInterface
 {
 
     public function __construct(public array $BICs = [])

@@ -9,7 +9,7 @@
 
 namespace Bluem\BluemPHP\Interfaces;
 
-interface ContextInterface
+interface BluemContextInterface
 {
     public function getBICCodes(): array;
     public function getBICs(): array;
